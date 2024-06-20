@@ -18,8 +18,9 @@
 - 시간지연 함수
 	- time.sleep(secs)
 
-	- 풀업
-	<img src="https://raw.githubusercontent.com/HeoYongmin/basic-raspberrypi-2024/main/day01/pull-up.png">
+- 풀업
+	<img src="https://raw.githubusercontent.com/HeoYongmin/basic-raspberrypi-2024/main/day01/pull-up.png" width=730>
 
-	- 풀 다운
-	<img src="https://raw.githubusercontent.com/HeoYongmin/basic-raspberrypi-2024/main/day01/pull-down.png">
+
+- 풀 다운
+	<img src="https://raw.githubusercontent.com/HeoYongmin/basic-raspberrypi-2024/main/day01/pull-down.png" width=730>
