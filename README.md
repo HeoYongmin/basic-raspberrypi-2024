@@ -17,3 +17,9 @@
 	- channel: 핀번호, 반환값: H/L or 1/0 or T/F
 - 시간지연 함수
 	- time.sleep(secs)
+
+	- 풀업
+	<img src="https://raw.githubusercontent.com/HeoYongmin/basic-raspberrypi-2024/main/day01/pull-up.png">
+
+	- 풀 다운
+	<img src="https://raw.githubusercontent.com/HeoYongmin/basic-raspberrypi-2024/main/day01/pull-down.png">
