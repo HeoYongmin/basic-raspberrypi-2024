@@ -14,16 +14,16 @@ try:
     while True:
         user_input = input()  
 
-        try:
-            melody_index = int(user_input) - 1  
-            if 0 <= melody_index < len(melody):
-                Buzz.start(50) 
-                Buzz.ChangeFrequency(melody[melody_index])  
-                time.sleep(0.5) 
-                Buzz.stop()  
+        #try:
+        melody_index = int(user_input) - 1  
+        if 0 <= melody_index < len(melody):
+            Buzz.start(50) 
+            Buzz.ChangeFrequency(melody[melody_index])  
+            time.sleep(0.5) 
+            Buzz.stop()  
         
-        except ValueError:
-            pass
+        #except ValueError:
+         #   pass
 
 except KeyboardInterrupt:
     GPIO.cleanup()
