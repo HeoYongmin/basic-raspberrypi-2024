@@ -24,3 +24,18 @@
 
 - 풀 다운
 	<img src="https://raw.githubusercontent.com/HeoYongmin/basic-raspberrypi-2024/main/day01/pull-down.png" width=730>
+
+## 2일차 (2024-06-21)
+- 가상환경 만들기
+	- python -m venv env
+
+- 가상환경 들어가기
+	- source ./env/bin/activate
+
+- 가상환경 빠져나오기
+	- deactivate
+
+- 설치
+	- sudo git clone https://github.com/WiringPi/WiringPi
+	- sudo ./build
+	- gpio readall
