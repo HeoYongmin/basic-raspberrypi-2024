@@ -39,3 +39,7 @@
 	- sudo git clone https://github.com/WiringPi/WiringPi
 	- sudo ./build
 	- gpio readall
+
+## 3일차(2024-06-24)
+- 새로운 가상환경 만들기
+	- python -m venv --system-site-packages env
