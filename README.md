@@ -43,3 +43,9 @@
 ## 3일차(2024-06-24)
 - 새로운 가상환경 만들기
 	- python -m venv --system-site-packages env
+
+## 4일차(2024-06-25)
+- html을 이용한 led on,off 제어 웹서버 만들기
+	- <img src="https://raw.githubusercontent.com/HeoYongmin/basic-raspberrypi-2024/main/day04/web.png" width=730>
+
+- 스위치를 눌러 사진 촬영
