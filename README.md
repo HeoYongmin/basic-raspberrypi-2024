@@ -48,4 +48,5 @@
 - html을 이용한 led on,off 제어 웹서버 만들기
 	- <img src="https://raw.githubusercontent.com/HeoYongmin/basic-raspberrypi-2024/main/day04/web.png" width=730>
 
-- 스위치를 눌러 사진 촬영
+- 버튼을 눌러 사진 촬영 가능한 사진기 만들기
+	- <img src="https://raw.githubusercontent.com/HeoYongmin/basic-raspberrypi-2024/main/day04/cam.png" width=730>
