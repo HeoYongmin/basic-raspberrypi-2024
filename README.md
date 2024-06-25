@@ -50,3 +50,5 @@
 
 - 버튼을 눌러 사진 촬영 가능한 사진기 만들기
 	- <img src="https://raw.githubusercontent.com/HeoYongmin/basic-raspberrypi-2024/main/day04/cam.png" width=730>
+
+- 7세그먼트 0~9 숫자 1초 간격으로 표시
