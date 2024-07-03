@@ -5,7 +5,7 @@ import RPi.GPIO as GPIO
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from PyQt5 import uic
 from PyQt5.QtCore import QTimer
-from picamera2 import Picamera2
+from picamera2 import Picamera2, Preview
 
 # LED 및 세그먼트 초기화
 led_pins = {
@@ -51,6 +51,9 @@ form_class = uic.loadUiType("/home/pi/Work/project/main.ui")[0]
 
 # Picamera2 객체 생성
 picam2 = Picamera2()
+config = picam2.create_still_configuration()
+picam2.configure(config)
+picam2.start()
 
 # 메인 윈도우 클래스 정의
 class WindowClass(QMainWindow, form_class):
@@ -106,6 +109,9 @@ class WindowClass(QMainWindow, form_class):
             GPIO.output(led_pins['green'], False)
         elif color == 'blue':
             GPIO.output(led_pins['blue'], False)
+        elif color == 'off':
+            for pin in led_pins.values():
+                GPIO.output(pin, True)
 
     def start_counting(self):
         # 카운터 시작 함수
@@ -144,13 +150,17 @@ class WindowClass(QMainWindow, form_class):
         # 카메라 촬영 함수
         now = datetime.datetime.now()
         fileName = now.strftime('%Y-%m-%d_%H-%M-%S')
-        picam2.capture_file(fileName + '.jpg')
+        picam2.capture_file(f"/home/pi/Pictures/{fileName}.jpg")
         print(f"사진 촬영 완료: {fileName}.jpg")
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     myWindow = WindowClass()
     myWindow.show()
+<<<<<<< Updated upstream:project/raspberrypi_project.py
     sys.exit(app.exec_())
 
 
+=======
+    sys.exit(app.exec_())
+>>>>>>> Stashed changes:project/test01.py
