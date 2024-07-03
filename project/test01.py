@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import sys
 import time
 import datetime
@@ -153,6 +152,5 @@ if __name__ == "__main__":
     myWindow = WindowClass()
     myWindow.show()
     sys.exit(app.exec_())
-=======
 
->>>>>>> 624fd2becc9d390eaaeb5732bbf11fa81fea3375
+
