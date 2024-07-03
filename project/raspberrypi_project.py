@@ -157,10 +157,4 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     myWindow = WindowClass()
     myWindow.show()
-<<<<<<< Updated upstream:project/raspberrypi_project.py
     sys.exit(app.exec_())
-
-
-=======
-    sys.exit(app.exec_())
->>>>>>> Stashed changes:project/test01.py
