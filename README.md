@@ -70,3 +70,25 @@
 
 ## 9일차(2024-07-03)
 
+
+- https://github.com/HeoYongmin/basic-raspberrypi-2024/assets/158007383/729d6b22-e2ad-4e90-8fa1-81264a7fb7e6
+
+
+
+- https://github.com/HeoYongmin/basic-raspberrypi-2024/assets/158007383/def0000a-ccbd-4d67-8b13-e57b30aa0b10
+
+- LED 제어
+	- 사용자가 GUI에서 빨간색, 초록색, 파란색 LED를 각각 켜고 끌 수 있음
+	- 구현 방법: PyQt5의 QPushButton을 사용하여 각 LED를 제어하고, RPi.GPIO를 이용해 GPIO 핀을 제어
+
+- 세그먼트 디스플레이
+	- 7세그먼트 디스플레이를 사용하여 숫자를 표시
+	- 구현 방법: PyQt5의 LCDNumber를 사용하여 현재 숫자를 표시하고, 타이머를 이용하여 카운트 업 기능을 구현했습니다. RPi.GPIO를 이용해 각각의 세그먼트를 제어
+
+- 카메라 촬영
+	- 'Camera' 버튼을 클릭하면 현재 시간을 기반으로 파일명을 생성하여 Raspberry Pi 카메라로 사진을 촬영
+	- 구현 방법: PyQt5의 QPushButton을 사용하여 버튼 클릭 이벤트를 처리하고, picamera2를 이용해 사진을 촬영하고 저장
+
+- 카운터 기능
+	- 사용자가 'Count' 버튼을 클릭하면 1초마다 숫자가 증가하는 카운터 기능을 제공
+	- 구현 방법: QTimer를 사용하여 1초마다 update_count 함수를 호출하여 숫자를 증가시키고, PyQt5의 LCDNumber를 통해 실시간으로 숫자를 표시
