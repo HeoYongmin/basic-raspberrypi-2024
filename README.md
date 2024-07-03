@@ -69,3 +69,11 @@
 - 개인 프로젝트
 
 ## 9일차(2024-07-03)
+
+- https://github.com/HeoYongmin/basic-raspberrypi-2024/assets/158007383/0566bd68-1d86-43ee-a75d-e03b7337309b
+
+
+- https://github.com/HeoYongmin/basic-raspberrypi-2024/assets/158007383/def0000a-ccbd-4d67-8b13-e57b30aa0b10
+
+
+
