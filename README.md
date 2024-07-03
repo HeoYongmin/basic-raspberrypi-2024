@@ -70,7 +70,10 @@
 
 ## 9일차(2024-07-03)
 
-- https://github.com/HeoYongmin/basic-raspberrypi-2024/assets/158007383/0566bd68-1d86-43ee-a75d-e03b7337309b
+
+- https://github.com/HeoYongmin/basic-raspberrypi-2024/assets/158007383/aac555b7-2dd5-48d8-9804-c867912fc199
+
+
 
 
 - https://github.com/HeoYongmin/basic-raspberrypi-2024/assets/158007383/def0000a-ccbd-4d67-8b13-e57b30aa0b10
